@@ -1,0 +1,358 @@
+{
+    "SoftDrinks":[
+        {
+            "name":"Malt",
+            "price":"500 Naira",
+            "category":"Soft Drinks"
+
+        },
+        {
+            "name":"Sprite",
+            "price":"500 Naira"
+        },
+        {
+            "name":"Coke",
+            "price":"500 Naira"
+        },
+        {
+            "name":"Fanta",
+            "price":"500 Naira"
+        },
+        {
+            "name":"Farouz",
+            "price":"1000 Naira"
+        }
+    ],
+    "Whiskey":[
+        {
+            "name":"GLENIFIDDISH 15 YEARS",
+            "price":"80000",
+            "category":"Whiskey"
+        },
+        {
+            "name":"GOLD LABEL",
+            "price":"50000 Naira"
+        },
+        {
+            "name":"BLACK LABEL",
+            "price":"35000 Naira"
+        },
+        {
+            "name":"RED LABEL",
+            "price":"15000 Naira"
+        },
+        {
+            "name":"jameson black barrel",
+            "price":"35000 Naira"
+        },
+        {
+            "name":"JAMESON(GREEN)",
+            "price":"20000 Naira"
+        }
+
+    ],
+    "Tequila":[
+        {
+            "name":"OLMECA",
+            "price":"35000 Naira",
+            "category":"TEQUILA"
+        },
+        {
+            "name":"CLASE AZUL",
+            "price":"450000 Naira"
+        }
+    ],
+    "Gin":[
+        {
+            "name":"GORDONS LONDON DRY GIN",
+            "price":"12000 Naira",
+            "category":"GIN & SPIRIT"
+        },
+        {
+            "name":"GORDONS DRY GUN(PINK BERRY)",
+            "price":"7000 Naira"
+        },
+        {
+            "name":"GORDONS DRY GUN (SUNSET ORA)",
+            "price":"8000 Naira"
+        }
+    ],
+    "Rose":[
+        {
+            "name":"BELAIRE ROSE",
+            "price":"70000",
+            "category":"Rose"
+        },
+        {
+            "name":"MOET CHAMPAGNE",
+            "price":"120k"
+        },
+        {
+            "name":"ANDRE",
+            "price":"16K"
+        }
+    ],
+    "Alc":[
+        {
+            "name":"BARON DE VALIS",
+            "price":"10k",
+            "category":"ALCOHOLI WINES"
+        },
+        {
+            "name":"TOMA TOMA",
+            "price":"10K"
+        },
+        {
+            "name":"BARON ROMERO",
+            "price":"1500 Naira"
+        },
+        {
+            "name":"FOUR COUSINS",
+            "price":"15K"
+        }
+    ],
+    "NonAlc":[
+        {
+            "name":"TEST PRODUCT 90",
+            "price":"3k",
+            "category":"NON ALCOHOLI WINES"
+        },
+        {
+            "name":"EVA WINE",
+            "price":"5K"
+        },
+        {
+            "name":"MARTINELLIS",
+            "price":"10K"
+        }
+    ],
+    "SHOTS":[
+        {
+            "name":"TEQUILA",
+            "price":"4k",
+            "category":"Shots"
+        }
+    ],
+    "Bitters":[
+        {
+            "name":"ACTION BITTERS",
+            "price":"1300 Naira",
+            "category":"Bitters"
+        },
+        {
+            "name":"ORIGIN BITTERS",
+            "price":"1500 Naira"
+        },
+        {
+            "name":"BALLAMOUR BITTERS",
+            "price":"1200 Naira"
+        },
+        {
+            "name":"KUMMERLING",
+            "price":"7K"
+        },
+        {
+            "name":"CAMPARI",
+            "price":"20K"
+        }
+    ],
+    "ED":[
+        {
+            "name":"BLUE BALLET",
+            "price":"1500 Naira",
+            "category":"ENERGY DRINKS"
+        },
+        {
+            "name":"PREDATOR",
+            "price":"500 Naira"
+        },
+        {
+            "name":"BLACK BULLET",
+            "price":"2K"
+        }
+    ],
+    "Cream":[
+        {
+            "name":"VITAMILK",
+            "price":"1500 Naira",
+            "category":"Cream"
+        },
+        {
+            "name":"HOLLANDIA YORGURT",
+            "price":"3K"
+        },
+        {
+            "name":"BEST CREAM(BIG)",
+            "price":"7K"
+        }
+    ],
+    "Water":[
+        {
+            "name":"AQUAFINA WATER -75cl",
+            "price":"500 Naira",
+            "category":"WATER"
+        },
+        {
+            "name":"WATER EVA(BIG)",
+            "price":"1200 Naira"
+        }
+    ],
+    "Rice":[
+        {
+            "name":"CARIBBEAN RICE",
+            "price":"2k",
+            "category":"Rice"
+        },
+        {
+            "name":"FRIED RICE",
+            "price":"2K"
+        },
+        {
+            "name":"JOLLOF RICE",
+            "price":"1500 Naira"
+        },
+        {
+            "name":"RICE AND STEW",
+            "price":"1200 Naira"
+        },
+        {
+            "name":"BANGA RICE",
+            "price":"1200 Naira"
+        },
+        {
+            "name":"COCONUT RICE",
+            "price":"1500 Naira"
+        }
+    ],
+    "Protein":[
+        {
+            "name":"ISHON",
+            "price":"1k",
+            "category":"Protein"
+        },
+        {
+            "name":"Beef",
+            "price":"1K"
+        },
+        {
+            "name":"GIZZARD SAUCE",
+            "price":"3K"
+        },
+        {
+            "name":"KPOMO SAUCE",
+            "price":"2K"
+        },
+        {
+            "name":"SNAIL SAUCE",
+            "price":"3k"
+        },
+        {
+            "name":"PEPPERED CHICKEN",
+            "price":"3K"
+        },
+        {
+            "name":"PEPPERED TURKEY",
+            "price":"3K"       
+         },
+         {
+            "name":"FRIED CHICKEN",
+            "price":"2500 Naira"
+         },
+         {
+            "name":"GOAT MEAT SAUCE",
+            "price":"3500 Naira"
+         }
+    ],
+    "Soup":[
+        {
+            "name":"VEGETBLE SOUP WITH COWTAIL",
+            "price":"3k",
+            "category":"Soup"
+        },
+        {
+            "name":"OKRA SOUP WITH COWTAIL",
+            "price":"3500 Naira"
+        },
+        {
+            "name":"OWHO SOUP WITH COWTAIL",
+            "price":"3500 Naira"
+        },
+        {
+            "name":"OWHO SOUP WITH COW LEG",
+            "price":"3500 Naira"
+        },
+        {
+            "name":"BANGA SOUP WITH DRIED FISH",
+            "price":"5K"
+        },
+        {
+            "name":"BANGA SOUP WITH FRIED FISH AD HEAD",
+            "price":"4500 Naira"
+        },
+        {
+            "name":"BANGA SOUP WITH FRESH FISH",
+            "price":"3500 Naira"       
+         },
+         {
+            "name":"EGUSI SOUP WITH CHIKEN",
+            "price":"4K"
+         },
+         {
+            "name":"EGUSI SOUP WITH DRY FISH",
+            "price":"5K"
+         },
+         {
+            "name":"EGUSI SOUP WITH COWLEG",
+            "price":"3K"
+         }
+    ],
+    "Bb":[
+        {
+            "name":"CATFISH (WITH CHIPS AND SALAD)",
+            "price":"9k",
+            "category":"BBQ"
+        }
+    ],
+    "Extras":[
+        {
+            "name":"SALAD",
+            "price":"800 Naira",
+            "category":"EXTRAS"
+        }
+    ],
+    "Juice":[
+        {
+            "name":"5 ALIVE PULPY",
+            "price":"1k",
+            "category":"Juice"
+        },
+
+        {
+            "name":"CHIVITA EXOTIC",
+            "price":"3k"
+        },
+        {
+            "name":"CHIVITA ACTIVE",
+            "price":"3k"
+        }
+    ],
+    "Brandy":[
+        {
+            "name":"MARTELL V.S.O.P",
+            "price":"12K",
+            "category":"Brandy"
+        },
+        {
+            "name":"MARTELL BLUE SWIFT",
+            "price":"90K"
+        },
+        {
+            "name":"HENNESSEY V.S.O.P",
+            "price":"90K"
+        },
+        {
+            "name":"HENNESSEY V.S",
+            "price":"50K"
+        }
+    ]
+}
