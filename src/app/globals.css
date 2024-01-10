@@ -18,11 +18,7 @@
 
 body {
  width:100vw;
- overflow-x:hidden
-}
-
-@media screen and (max-width:800px){
-  body{
-    padding:2px,
-  }
+ overflow-x:hidden;
+ background-color: #26425a;
+ color:white
 }
