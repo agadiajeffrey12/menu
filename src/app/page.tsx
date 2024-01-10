@@ -1,15 +1,31 @@
-import Image from 'next/image'
-import Data from "../utils/Data.json"
-import Showcase from './components/Showcase'
+"use client";
+import Image from "next/image";
+import Data from "../utils/Data.json";
+import Showcase from "./components/Showcase";
+import { useEffect, useState } from "react";
+import First from "./components/First";
 
 export default function Home() {
-  // console.log(Data)
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const arr: any = [];
+    Object.keys(Data).forEach((key) => {
+      const value = Data[key];
+      arr.push({ name: key, value });
+    });
+    setData(arr);
+  }, [Data]);
+
+  useEffect(() => {
+    console.log(data);
+  }, [data]);
   return (
-    <main className="w-[100vw] max-w-[1300px] m-auto h-[100vh]">
-        <header className="flex w-full h-[4rem] border-b items-center mb-4">
-          <h2 className="text-3xl font-bold">Menu</h2>
-        </header>
-          <div className="flex flex-wrap gap-2">
+    <main className="w-full max-w-[1300px] m-auto h-[100vh]">
+      <header className="flex w-[98.5%] h-[4rem] border-b items-center mb-4">
+        <h2 className="text-3xl font-bold">Menu</h2>
+      </header>
+      {/* <div className="flex flex-wrap gap-2">
             <Showcase name={Data.SoftDrinks[0].category?.toString()} item={Data.SoftDrinks}/>
             <Showcase name={Data.Whiskey[0].category?.toString()} item={Data.Whiskey}/>
             <div className="flex flex-col gap-2">
@@ -32,11 +48,14 @@ export default function Home() {
             <Showcase name={Data.Juice[0].category?.toString()} item={Data.Juice}/>
             <Showcase name={Data.Brandy[0].category?.toString()} item={Data.Brandy}/>
 
+ */}
 
-
-
-          </div>
-
+      {/* </div> */}
+      <div className="w-full flex flex-wrap gap-2">
+        {data?.map((item: any, i: number) => (
+          <First key={i} image={item.value[0].image} text={item.name} />
+        ))}
+      </div>
     </main>
-      )
+  );
 }
