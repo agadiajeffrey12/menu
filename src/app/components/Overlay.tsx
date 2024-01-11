@@ -13,7 +13,7 @@ export default function Overlay({name,item,sh}:any) {
         </header>
         <div className="flex flex-wrap w-full gap-2 mt-4">
             {item?.map((item:any,i:number)=>(
-                <Second item={item}/>
+                <Second key={i*77} item={item}/>
             ))}
         </div>
       </div>
