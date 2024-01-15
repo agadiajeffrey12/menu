@@ -7,7 +7,7 @@ export default function Second({item}:any) {
       <img src={item.img } className='w-full h-full object-cover'/>
       <div className="absolute bottom-0 left-0 w-full h-[50%] flex flex-col  justify-between bg-slate-700/50 p-2">
         <p className='laptop:text-xl phone:text-[.8rem]'>{item.name}</p>
-        <p className='laptop:text-xl phone:text-[1rem] font-semibold text-slate-800'>{item?.price}</p>
+        <p className='laptop:text-xl phone:text-[1rem] font-semibold text-[#1a1aff]'>{item?.price}</p>
       </div>
     </div>
   )
